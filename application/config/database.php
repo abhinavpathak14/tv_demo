@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'postgres';
-$db['default']['password'] = '';
-$db['default']['database'] = 'talkvalley_demo';
+$db['default']['hostname'] = 'ec2-54-204-42-119.compute-1.amazonaws.com';
+$db['default']['username'] = 'sxocctdvoidkup';
+$db['default']['password'] = 'egiPqxTG3CfPHqb2QJAciZfh9c';
+$db['default']['database'] = 'd4om69dpuk30pv';
 $db['default']['dbdriver'] = 'postgre';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
