@@ -19,8 +19,8 @@ define('DIR_READ_MODE', 0755);
 define('DIR_WRITE_MODE', 0777);
 
 
-define('LINKEDIN_API_KEY', '781agw51q70dgl');
-define('LINKEDIN_SECRET_KEY', '4kvQ2otlmDmI8sll');
+define('LINKEDIN_API_KEY', '');
+define('LINKEDIN_SECRET_KEY', '');
 define('LINKEDIN_AUTH_CODE_URL', 'https://www.linkedin.com/uas/oauth2/authorization');
 define('LINKEDIN_ACCESS_TOKEN_URL', 'https://www.linkedin.com/uas/oauth2/accessToken');
 define('LINKEDIN_COMPANY_API_URL', 'https://api.linkedin.com/v1/company-search:(companies:(id,name,employee-count-range,description))?keywords=');
@@ -41,6 +41,11 @@ define('FOPEN_WRITE_CREATE',					'ab');
 define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
+
+define('PUBLISHER', '');
+define('FORMAT', 'xml');
+define('INDEED_API_URL', 'http://api.indeed.com/ads/apisearch');
+//&q=java&l=austin%2C+tx&sort=&radius=&st=&jt=&start=&limit=&fromage=&filter=&latlong=1&co=us&chnl=&userip=1.2.3.4&useragent=Mozilla/%2F4.0%28Firefox%29&v=2
 
 
 /* End of file constants.php */

@@ -27,6 +27,9 @@ class CompanyModel extends CI_Model {
         }
         return true;
     }
+    public function getCompanyDetailsByName($company_name) {
+        return $this->db->select('*')->like('company_name', $company_name)->get('companies');
+    }
 }
 
 ?>
