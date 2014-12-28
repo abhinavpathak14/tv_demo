@@ -42,7 +42,7 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-define('PUBLISHER', 'dsf');
+define('PUBLISHER', '');
 define('FORMAT', 'xml');
 define('INDEED_API_URL', 'http://api.indeed.com/ads/apisearch');
 //&q=java&l=austin%2C+tx&sort=&radius=&st=&jt=&start=&limit=&fromage=&filter=&latlong=1&co=us&chnl=&userip=1.2.3.4&useragent=Mozilla/%2F4.0%28Firefox%29&v=2
